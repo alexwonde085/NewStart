@@ -1833,3 +1833,25 @@ section {
     padding-top: 4px;
   }
 }
+
+.feature{
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 70px;
+}
+
+.fa-border{
+  border-radius: 50%;
+  font-size: 20px;
+  border: 1px solid #000;
+}
+.fa-border:hover{
+  color: #209dd8;
+  border: 1px solid #209dd8;
+  transition: 5s;
+}
+.getintouch, .why-us{
+  margin: 0 auto;
+  padding: 20px 70px;
+}
+
