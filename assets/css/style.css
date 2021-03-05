@@ -1477,18 +1477,20 @@ section {
 
 }
 .navbar{
+  /* background: linear-gradient(-90deg, #78D166, #076C9E); */
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-	background-color: #5D4954;
+	/* background-color: ; */
   margin: 0 10px
   
 }
 .nav-link{
-  display: flex;
   color: #fff !important;
   justify-content: space-around !important;
-  width: 30%;
+  width: 40%;
+  text-transform: uppercase;
+  
 }
 .nav-link a{
   letter-spacing: 3px;
