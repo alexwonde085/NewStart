@@ -564,7 +564,7 @@ section {
 # Why Us
 --------------------------------------------------------------*/
 .why-us{
-  background-color: #7BD055;
+  background-color: #076c9e;
 }
 .why-us .content {
   padding: 60px 100px 0 100px;
@@ -697,7 +697,7 @@ section {
 # About Us
 --------------------------------------------------------------*/
 .aboutUs{
-  background-color: #F4F4F4;
+  background-color: #78d166;
 }
 .aboutUs .content {
   padding: 60px 100px 0 100px;
@@ -711,10 +711,11 @@ section {
   font-weight: bold;
 }
 
-.aboutUs .content h4 {
+.aboutUs .content h4, footer h4 {
   font-size: 20px;
   font-weight: 700;
   margin-top: 5px;
+  color: rgb(4, 10, 42);
 }
 
 .aboutUs .content p {
@@ -827,7 +828,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #37517e;
+  background: rgb(4, 10, 42);
 }
 
 #footer .footer-newsletter {
@@ -986,6 +987,8 @@ section {
 
 #footer .copyright {
   float: left;
+  margin: 30px 10px;
+
 }
 
 #footer .credits {
@@ -1044,14 +1047,18 @@ section {
   font-weight: bold;
   text-align: center;
 }
-.getintouch p, i{
+.getintouch p{
   padding: 20px 70px;
   color: rgb(4, 10, 42);
   font-family: 'Poppins', sans-serif;
 }
+.getInTouch i{
+  padding: 20px 70px;
+  color: rgb(4, 10, 42);
+}
 
-.getInTouchForm{
-  margin: 20px 10px;
+.getInTouch input, textarea{
+  width: 420px;
 }
 .nav-link:hover{
 	font-weight: 600;
@@ -1060,11 +1067,9 @@ section {
 
 }
 .navbar{
-  /* background: linear-gradient(-90deg, #78D166, #076C9E); */
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-	/* background-color: ; */
   margin: 0 10px
   
 }
@@ -1077,7 +1082,6 @@ section {
 }
 .nav-link a{
   letter-spacing: 3px;
-  /* font-weight: bold; */
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
 
@@ -1086,10 +1090,32 @@ section {
   background-color: #00FFD4;
 }
 
-.discoberBtn{
+.discoberBtn, .send, .subscribe{
   color: rgb(4, 10, 42);
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
   background-color: #00FFD4;
   border-radius: 20px;
+}
+
+.carousel-item{
+  color: rgb(4, 10, 42);
+  text-align: center;
+  background-color: #f4f4f4;
+}
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+#footer .social i{
+  font-size: 30px;
+  display: inline;
+  margin: 30px 10px;
+  float:right;
+}
+#footer .social i:hover{
+  color: #076c9e;
+  cursor: pointer;
 }
