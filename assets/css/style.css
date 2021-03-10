@@ -697,7 +697,7 @@ section {
 # About Us
 --------------------------------------------------------------*/
 .aboutUs{
-  background-color: #070C9E;
+  background-color: #F4F4F4;
 }
 .aboutUs .content {
   padding: 60px 100px 0 100px;
@@ -1031,6 +1031,10 @@ section {
   color: #209dd8;
   border: 1px solid #209dd8;
   transition: 5s;
+}
+
+.getInTouch{
+  background-color: #ADADAD;
 }
  .getInTouch h3{
   margin: 0 auto;
